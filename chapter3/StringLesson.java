@@ -19,5 +19,11 @@ public class StringLesson {
         System.out.println(name1.toUpperCase());
         name1.toLowerCase();
         System.out.println(name1);
+        System.out.println(name1.startsWith("Ma"));
+        System.out.println(name1.endsWith("do"));
+        System.out.println(name1.contains("Eds"));
+        System.out.println(name1.replace("d","p"));
+        System.out.println(name1);
+        System.out.print("    \t \n           marc     ck          ".trim());
     }
 }
