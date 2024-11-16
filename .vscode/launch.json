@@ -1,0 +1,92 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        ja
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "ciiccb42024_16c0d313"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeString",
+            "request": "launch",
+            "mainClass": "ProgrammingChallenge.PalindromeString",
+            "projectName": "ciiccb42024_16c0d313"
+        },
+        {
+            "type": "java",
+            "name": "ConstructorLesson",
+            "request": "launch",
+            "mainClass": "chapter1.ConstructorLesson",
+            "projectName": "ciiccb42024_16c0d313"
+        },
+        {
+            "type": "java",
+            "name": "ImportConflict",
+            "request": "launch",
+            "mainClass": "chapter1.ImportConflict",
+            "projectName": "ciiccb42024_16c0d313"
+        },
+        {
+            "type": "java",
+            "name": "Name",
+            "request": "launch",
+            "mainClass": "chapter1.Name",
+            "projectName": "ciiccb42024_16c0d313"
+        },
+        {
+            "type": "java",
+            "name": "PrimitiveLesson",
+            "request": "launch",
+            "mainClass": "chapter1.PrimitiveLesson",
+            "projectName": "ciiccb42024_16c0d313"
+        },
+        {
+            "type": "java",
+            "name": "ConditionalStatements",
+            "request": "launch",
+            "mainClass": "chapter2.ConditionalStatements",
+            "projectName": "ciiccb42024_16c0d313"
+        },
+        {
+            "type": "java",
+            "name": "Loops",
+            "request": "launch",
+            "mainClass": "chapter2.Loops",
+            "projectName": "ciiccb42024_16c0d313"
+        },
+        {
+            "type": "java",
+            "name": "Operators",
+            "request": "launch",
+            "mainClass": "chapter2.Operators",
+            "projectName": "ciiccb42024_16c0d313"
+        },
+        {
+            "type": "java",
+            "name": "StringBuilderLesson",
+            "request": "launch",
+            "mainClass": "chapter3.StringBuilderLesson",
+            "projectName": "ciiccb42024_16c0d313"
+        },
+        {
+            "type": "java",
+            "name": "StringLesson",
+            "request": "launch",
+            "mainClass": "chapter3.StringLesson",
+            "projectName": "ciiccb42024_16c0d313"
+        }
+    ]
+}

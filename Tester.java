@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import ProgrammingChallenge.PalindromeString;
+import ProgrammingChallenge.Challenge4;
 public class Tester {
     @Test
     void PalindromerValid(){
@@ -18,4 +19,7 @@ public class Tester {
     void addTwonumbers(){
         assertEquals(5,(4+1),"incorrect computation");
     }
+    
+    
 }
+
