@@ -9,15 +9,15 @@ public class VarargsLeesson {
     }
     
 }
-class Hamster{
-    String name;
+// class Hamster{
+//     String name;
 
-    public Hamster(String name, int age, String color) {
-        this.name = name;
-        this.age = age;
-        this.color = color;
-    }
-    int age;
-    String color;
-    static int numberOfTth = 12;
-}
+//     public Hamster(String name, int age, String color) {
+//         this.name = name;
+//         this.age = age;
+//         this.color = color;
+//     }
+//     int age;
+//     String color;
+//     static int numberOfTth = 12;
+// }
