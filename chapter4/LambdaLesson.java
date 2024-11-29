@@ -25,6 +25,11 @@ public class LambdaLesson {
         print(animals, a->(a.canHop() && a.canSwim()));
         print(animals, a->(!a.canHop() && !a.canSwim()));
         print(animals, a->a.getAge()>3);
+        NumbersInterface ni=  (x,y,t)-> {return x+y;};
+        NumbersInterface ni2=  (a,b,t)-> a*b+100;
+        System.out.println(ni.aPlusB(4, 5,false));
+        System.out.println(ni2.aPlusB(4, 5,true));
+
     }
     
 }
@@ -60,3 +65,6 @@ class Animal{
 //         return a.canSwim();
 //     }
 // }
+interface NumbersInterface{
+    int aPlusB(int x,int y,boolean u);
+}
