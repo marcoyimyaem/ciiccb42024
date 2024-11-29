@@ -29,7 +29,13 @@ public class LambdaLesson {
         NumbersInterface ni2=  (a,b,t)-> a*b+100;
         System.out.println(ni.aPlusB(4, 5,false));
         System.out.println(ni2.aPlusB(4, 5,true));
-
+        int regPrice = 1000;
+        DiscountItems tenPercent = (y)-> y - (y*0.10);
+        DiscountItems twentyPercent = (y)-> y - (y*0.20);
+        DiscountItems fiftyPercent = (y)-> y - (y*0.50);
+        System.out.println(tenPercent.dc(regPrice));
+        System.out.println(twentyPercent.dc(regPrice));
+        System.out.println(fiftyPercent.dc(regPrice));
     }
     
 }
@@ -67,4 +73,7 @@ class Animal{
 // }
 interface NumbersInterface{
     int aPlusB(int x,int y,boolean u);
+}
+interface DiscountItems{
+    double dc(double q);
 }
