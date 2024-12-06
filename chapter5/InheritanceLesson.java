@@ -3,6 +3,7 @@ package chapter5;
 public class InheritanceLesson{
     public static void main(String[] args) {
         FinalParent p1 = new FinalParent();
+        Lion animal = new Lion("muning",4,13123421);
     }
 }
 
@@ -48,11 +49,19 @@ class MountainLion extends Lion{
 }
 
 class Canine{
-     public double getAverageWeight(){
+    static int dogFoodID = 5234;
+    public boolean hasFangs = true;
+    public double getAverageWeight(){
             return 50;
      }
 }
-
+class Pug extends Canine{
+    public double getAverageWeight(){
+        this.hasFangs = false;
+        System.out.println("Pug: "+hasFangs+"\nCanine: "+super.hasFangs);
+        return super.getAverageWeight()-30;
+ }
+}
 class Wolf extends Canine{
     public double getAverageWeight(){
         return super.getAverageWeight()+20;
@@ -64,7 +73,9 @@ class Wolf extends Canine{
  public static void main(String[] args) {
     System.out.println(new Canine().getAverageWeight());
     System.out.println(new Wolf().getAverageWeight());
+    System.out.println(new Pug().getAverageWeight());
     Hayop h1 =  new Dog();
+    System.out.println(CanBurrow2.isInWater());
  }
 }
 
@@ -105,6 +116,12 @@ abstract interface CanBurrow{
 interface CanBurrow2 extends CanBurrow{
     int MINIMUM_DEPTH2 = 2;
     int getMaximumDepth2();
+    default int getMinDepth(){
+        return 1;
+    }
+    static boolean isInWater(){
+        return false;
+    }
 
 }
 class FieldMouse extends Hayop implements CanBurrow,CanBurrow2{
